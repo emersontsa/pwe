@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="keywordes" content="lista 4, atividade, html">
+<meta name="description" content="Essa página é uma atividade">
+<meta name="author" content="Emerson Teles">
+
+<title>Emerson Teles Souza do Amaral</title>
+</head>
+<body style="background-color:rgb(214, 227, 188)">
+<h1 style="text-align:center;color:rgb(54,69,145);font-family:Verdana;margin-top: 30px">Sistemas para Internet</h1>
+<p style="font-family: tahoma; margin-left: 50px;"> <b style="color:red;font-size:25px">A</b> formatação deste texto utiliza tags <strong>HTML</strong> para <del title="OBS: “semanticamente falando”, neste
+    exemplo a palavra “formatá-lo” está sendo utilizada para substituir a palavra
+    “configurá-lo”;">configurá-lo</del> <ins>formatá-lo</ins>. Porém há <i style="color:red">tecnologias melhores</i> para se fazer isso, como por exemplo <b style="color:red"><i>CSS<sup>3</sup></i></b></p>
+</body>
+</html>
