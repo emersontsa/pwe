@@ -16,3 +16,54 @@ Atributos são colocado nas TAg
 <meta>: descreve o conteúdo do site para os buscadores e fornece informações adicionais sobre a página.
 http-equiv (configurações da página)
 name (informações)
+ex:   
+<!-- Meta name: passa informação -->
+    <meta name="description" content="Este site contém informações sobre ...">
+
+    <!-- Meta http-equiv: aplicar alguma configuração -->
+    <meta http-equiv="refresh" content="5;http://www.google.com">
+
+
+Robos:
+<meta name="robots" content="index,follow">
+<meta name="robots" content=“noindex,follow">
+<meta name="robots" content=“index,nofollow">
+<meta name="robots" content=“noindex,nofollow">
+<meta name="robots" content=“noarchive">
+tag html:
+<sup> ... </sup> Coloca a informação acima da linha do texto (sobrescrito)
+<sub> ... </sub> Coloca a informação abaixo da linha do texto (subscrito)
+<center>* ... </center> Centraliza as informações
+<hr> Define uma quebra de tema
+<em> Enfatiza o texto (itálico)
+<strong> Define a importância do texto (negrito)
+<i> fine uma parte do texto em uma voz alternativa ou humor (itálico)
+<b> TExto negrito
+
+
+Cores: 
+ <h1 style="color:red">Prof. Wilton Filho</h1>
+    <p style="background-color:yellow">IES: IFTM</p>
+
+Font: 
+<h1 style="font-family: arial;">Prof. Wilton Filho</h1>
+Tamanho da fonte:
+ <h1 style="font-size: 20px; font-family: arial">
+
+Imagem:
+<img src="pic_trulli.jpg" alt="Italian Trulli">
+
+Tabela:
+
+Tipos de listas (ordenadas e não ordenadas):
+
+Lista não ordenada: <ul> …<li> … </li> </ul>
+Lista ordenada: <ol> … <li> … </li> </ol>
+Itens de lista: <li> … </li>
+
+Ex.:  <ol start="5">
+        <li> Item a </li>
+        <li> Item b </li>
+        <li> Item c </li>
+    </ol>
+
