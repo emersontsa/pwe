@@ -1,1 +1,12 @@
+Tag:
 
+Toda TAG consiste de um nome, em algumas situações de alguns atributos e inicia e finaliza com os símbolos (< e >) 
+TAGs sem finalizadores: <area>, <br>, <hr>, <isindex>, <param>, <base>, <col>, <img>, <link>, <basefont>, <frame>, <input> e <meta>
+
+
+Atributos:
+dir: especifica a direção do texto na tela do navegador. Valores:
+rtl 🡪 texto da direita para a esquerda
+ltr 🡪 texto da esquerda para a direita
+lang: serve para definir o idioma predominante no documento (continuação ...)
+Ex.: <html lang="pt-br" dir="lfr">
