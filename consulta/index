@@ -10,3 +10,9 @@ rtl 🡪 texto da direita para a esquerda
 ltr 🡪 texto da esquerda para a direita
 lang: serve para definir o idioma predominante no documento (continuação ...)
 Ex.: <html lang="pt-br" dir="lfr">
+
+Atributos são colocado nas TAg
+
+<meta>: descreve o conteúdo do site para os buscadores e fornece informações adicionais sobre a página.
+http-equiv (configurações da página)
+name (informações)
