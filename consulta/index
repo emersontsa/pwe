@@ -39,7 +39,7 @@ tag html:
 <strong> Define a importância do texto (negrito)
 <i> fine uma parte do texto em uma voz alternativa ou humor (itálico)
 <b> TExto negrito
-
+<a> Ancora para link   <!-- target="_blank"> Para abrir em uma nova página-->
 
 Cores: 
  <h1 style="color:red">Prof. Wilton Filho</h1>
