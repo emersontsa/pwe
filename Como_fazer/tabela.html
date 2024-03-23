@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="lfr">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywordes" content="lista06, atividade, html5">
+  <meta name="description" content="pagina da atividade 06">
+  <meta name="author" content="Emerson Teles">
+
+
+  <title>HTML: Tabela Lista de Exercícios 01</title>
+</head>
+<!-- tr*6 - linhas-->
+<!-- td*4 Colunas-->
+
+<body>
+
+  <table border="1" ; align="center" ; style="font-family: Verdana; margin-top: 30px; border-spacing:0">
+    <caption>Lista de Funcionário e Salários</caption>
+    <tr>
+      <th>Nome do Funcionário</th>
+      <th>Sexo</th>
+      <th>Idade</th>
+      <th>Salário</th>
+    </tr>
+    <tr>
+      <!-- O rowspan="2" mescla as colunas TD -->
+      <td>Maria José</td>
+      <td rowspan="2">Feminino</td>
+      <td>14</td>
+      <td>R$ 1.500,00</td>
+    </tr>
+    <tr>
+      <td>Ana Clara</td>
+      <!-- <td>Feminino</td> -->
+      <td>25</td>
+      <td>R$ 3.000,00</td>
+    </tr>
+    <tr>
+      <td>João Márcio</td>
+      <td rowspan="2">Masculino</td>
+      <td>74</td>
+      <td>R$ 5.000,00</td>
+    </tr>
+    <tr>
+      <td>Robson Crusoé</td>
+      <!-- <td>Masculino</td> -->
+      <td>55</td>
+      <td>R$ 8.000,00</td>
+    </tr>
+    <tr>
+      <!-- O calspan="3" mescla as linhas TD no mesmo TR -->
+      <td style="text-align: right" colspan="3"><b>Média de Salário</b></td>
+      <!-- <td ></td> -->
+      <!-- <td></td> -->
+      <td><b>R$ 4.375,00</b></td>
+    </tr>
+  </table>
+</body>
+
+</html>
