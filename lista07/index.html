@@ -1,1 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywordes" content="prova,html">
+  <meta name="description" content="Essa página é uma prova">
+  <meta name="author" content="Emerson Teles">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <h1>Cadastro de Clientes</h1>
+  <h4><strong>Todos os campos são de preenchimento obrigatórios</strong></h4>
+  <form>
+
+    <!-- Grupo 1: Dados Pessoais -->
+    <fieldset>
+      <legend><strong>Dados pessoais</strong></legend>
+      <table>
+        <tr>
+          <td>
+            <!-- Criar id no input vinculando o nome na labal(for) -->
+            <label for="txtNome">Nome:</label><br>
+            <!-- Palceholder escreve dento do input -->
+            <!-- required = preenchimento do campo obrigatório -->
+            <input id="txtNome" type="text" placeholder="Nome completo" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="txtNasc">Data de nascimento:</label><br>
+            <input id="txtNasc" type="date" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <!-- Formato de multiplas opições com uma única escolha  -->
+            <!-- Opção 1 -->
+            <label>Sexo:</label><br>
+            <input id="masc" type="radio" name="sexo">
+            <label for="masc">Masculino</label>
+
+            <!-- Opção 2 -->
+            <input id="fem" type="radio" name="sexo">
+            <label for="fem">Feminino</label>
+
+          </td>
+        </tr>
+      </table>
+
+
+
+
+
+
+    </fieldset>
+
+
+
+    <!-- Grupo 2: Contato -->
+    <fieldset>
+      <legend><strong>Informação de Contato</strong></legend>
+      <table>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+      </table>
+    </fieldset>
+
+
+    <!-- Grupo 3: Localização -->
+    <fieldset>
+      <legend>Localização</legend>
+    </fieldset>
+    <input type="submit" value="Cadastrar">
+    <input type="reset" value="Limpar">
+
+
+  </form>
+</body>
+
+</html>
