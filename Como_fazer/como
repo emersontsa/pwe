@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywordes" content="prova,html">
+  <meta name="description" content="Essa página é uma prova">
+  <meta name="author" content="Emerson Teles">
+  <!-- Atualiza minha págain -->
+  <meta http-equiv="refresh" content="100">
+
+  <title>Document</title>
+</head>
+
+<body style="font-family: Arial">
+  <!--                          width == largura/ height== altura  -->
+  <img src="logoIFTM.png" alt="" width="200" height="50">
+  <h1 style="color: darkgreen;">Cursos oferecidos</h1>
+  <h3 style="color: darkred;">Conheça os cursos oferecidos pelo IFTM</h3>
+  <hr>
+  <!-- link sair para fora do site abrindo página nova (Sem o targt _blank abri na mesma página) -->
+  <p>O <a href="https://iftm.edu.br/" target="_blank">IFTM</a> campus Uberlândia Centro oferece cursos de graduação em
+    Licenciatura e em Tecnologia. Confira abaixo alguns desses cursos:</p>
+
+  <table>
+    <!-- 2x2 -->
+    <tr>
+      <td><img src="licenciatura.jpg" alt="" width="300" height="147"></td>
+      <td><img src="sistemas.png" alt="" width="300" height="147"></td>
+    </tr>
+    <tr>
+      <!-- Cria um link entre topicos dentro do site (id=lice- devo colcoar onde quero que o link me leve) -->
+      <td style="text-align: center;"><a href="#lice"><b>Licenciatura em Computação</b></a></td>
+      <td style="text-align: center;"><a href="#sis"><b>Sistemas para Internet</b></a></td>
+    </tr>
+  </table>
+
+
+
+  <h4 id="lice" style=" color: darkred;">Licenciatura em Computação</h4>
+  <hr>
+  <p>No exercício profissional do licenciado em computação estão implícitas: a colaboração com profissionais de
+    diversas
+    áreas, a qualificação e o comprometimento com a gestão do processo de ensino-aprendizagem, a visão da
+    complementaridade do processo educativo, da tecnologia e da ciência da computação, o estímulo à pesquisa, à
+    criação,
+    e
+    ao investimento na própria formação. Tem como objetivo formar professores com uma visão tecnológica em
+    computação,
+    para atuarem na educação básica: ensino fundamental, ensino médio, e ainda na educação profissional técnica de
+    nível
+    médio, na rede de ensino pública e privada.</p>
+  <!-- Cria um (leia mais) summaty (O título do laia mais)-->
+  <details>
+    <summary style="color: darkblue"><b><i>Mais informações sobre o curso</i></b></summary>
+
+    <h4>Perfil do egresso</h4>
+    <p>Entendemos o licenciado em computação, em primeiro lugar, como um profissional ligado ao exercício do
+      diálogo
+      entre
+      as unidades curriculares nos espaços da educação. Como tal, esse profissional agrega-se às equipes de
+      coordenação
+      pedagógica, nas quais atua de início, como um facilitador da introdução de novas tecnologias, não apenas no
+      sentido
+      prático (ou das práticas), mas particularmente no nível da discussão de metodologias e concepções. Nessa
+      qualidade,
+      a
+      sua intervenção no plano das atividades de concepção, planejamento e gestão pedagógicas pode, ou não, ser
+      definida
+      como algo transitório, dependendo da maior ou menor dificuldade de amadurecimento da cultura tecnológica na
+      comunidade
+      em que atua.</p>
+    <h4>Corpo docente</h4>
+    <p>Conheça os professores do curso de Licenciatura em Computação:</p>
+
+    <!-- table>tr*3>td>*4 (3 linhas x 4 colunas) -->
+    <table border="1">
+      <!-- coluna 1 -->
+      <tr>
+        <!-- linha 1 -->
+        <td>Docente</td>
+        <td>Tilulação</td>
+        <td>Áriea de Atuação</td>
+        <td>Regime</td>
+      </tr>
+      <!-- linha 2 -->
+      <tr>
+        <td>Bruno Quiroz Pinto</td>
+        <td>Doutorado</td>
+        <td>Desenvolvimento de Sistemas</td>
+        <td>DE</td>
+      </tr>
+      <!-- linha 3 -->
+      <tr>
+        <td>Wilson de Paula Filho</td>
+        <td>Doutorado</td>
+        <td>Computação 2</td>
+        <td>DE</td>
+      </tr>
+    </table>
+  </details>
+</body>
+
+</html>
