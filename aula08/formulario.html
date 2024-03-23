@@ -25,7 +25,8 @@
         <fieldset>
             <legend>Contatos</legend>
             <label for="txtEmail">email:</label>
-            <input id="txtEmail" type="email" placeholder="exemplo@exemplo.com">
+            <!-- Required - Obriga que seja obrigatoria a informação -->
+            <input id="txtEmail" type="email" placeholder="exemplo@exemplo.com" required>
             <br><br>
             <label for="txtSite">Site:</label>
             <input id="txtSite" type="url" placeholder="www.site.com"><br><br>
@@ -64,8 +65,12 @@
             <label for="txtJava">Java</label><br>
             
         </fieldset>
-
-
+        <!-- para criar um botão de invair -->
+        <input type="submit" value="Enviar">
+        <!-- Limpar o formulário -->
+        <input type="reset" value="Limpar">
+        <!-- botão -->
+        <input type="button" value="cancelar">
     </form>
 
 
