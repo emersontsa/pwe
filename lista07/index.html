@@ -6,13 +6,13 @@
   <meta name="keywordes" content="prova,html">
   <meta name="description" content="Essa página é uma prova">
   <meta name="author" content="Emerson Teles">
-  <title>Document</title>
+  <title>HTML: FORMULÁRIOS - LISTA DE EXERCÍCIOS 01</title>
 </head>
 
 <body>
 
   <h1>Cadastro de Clientes</h1>
-  <h4><strong>Todos os campos são de preenchimento obrigatórios</strong></h4>
+  <h4 style="color: rgb(214, 37, 48)" strong>Todos os campos são de preenchimento obrigatórios</strong></h4>
   <form>
 
     <!-- Grupo 1: Dados Pessoais -->
@@ -22,7 +22,7 @@
         <tr>
           <td>
             <!-- Criar id no input vinculando o nome na labal(for) -->
-            <label for="txtNome">Nome:</label><br>
+            <label for=" txtNome">Nome:</label><br>
             <!-- Palceholder escreve dento do input -->
             <!-- required = preenchimento do campo obrigatório -->
             <input id="txtNome" type="text" placeholder="Nome completo" required>
@@ -63,14 +63,30 @@
     <fieldset>
       <legend><strong>Informação de Contato</strong></legend>
       <table>
+        <!-- email -->
         <tr>
-          <td></td>
+          <td>
+            <label for="txtEmail">Email:</label><br>
+            <input id="txtEmail" type="email" placeholder="exemplo@exemplo.com" required>
+          </td>
         </tr>
+        <!-- telefone celular -->
         <tr>
-          <td></td>
+          <td>
+            <label for="txtTelddd">Telefone celular:</label>
+            <!-- maxlength == serve para limitar a quantidade de caracteres dentro do campo -->
+            <!-- pattern="[0-9]{11} limitar apenas a digitar números [0-9]] e {11} o número de caracteres" -->
+            <!-- DUVIDA:  <input id="txtTel" type="tel" maxlength="11" placeholder="(xx) 99999-9999" pattern="[0-9]{11}" required> -->
+            <input id="txtTel" type="tel" maxlength="9" placeholder=" Apenas números (máx 9)" pattern="[0-9]{9}"
+              required>
+          </td>
         </tr>
+        <!-- website pessoal -->
         <tr>
-          <td></td>
+          <td>
+            <label for="txtWeb"> Website pessoal:</label>
+            <input id="txtWeb" type="url" placeholder="www.exemplo.com" required>
+          </td>
         </tr>
       </table>
     </fieldset>
@@ -78,12 +94,68 @@
 
     <!-- Grupo 3: Localização -->
     <fieldset>
-      <legend>Localização</legend>
+      <legend><strong>Localização</strong></legend>
+      <table>
+        <tr>
+          <td>
+            <label for="txtEnd">Endereço:</label><br>
+            <input id="txtEnd" type="text" placeholder="Av,exemplo" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="txtNum">Número:</label><br>
+            <input id="txtNum" type="number" maxlength="4" placeholder="valor entre 1 e 9999" min="1" max="9999"
+              pattern="[0-9]{4}" required>
+            <!-- DUVIDA: <input id="txtNum" type="tel" maxlength="4" placeholder="valor entre 1 e 9999" min="1" max="9999" 
+              pattern="[0-9]{4}" required>-->
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="txtCid">Estado:</label><br>
+            <!-- select serve para escolher entre opções -->
+            <select id="txtCid" required>
+              <!-- Duvida Essa opção permita cadastrar sem o estado: -->
+              <option>Selecione um estado</option>
+              <option>Acre</option>
+              <option>Alagoas</option>
+              <option>Amapá</option>
+              <option>Amazonas</option>
+              <option>Bahia</option>
+              <option>Ceará</option>
+              <option>Distrito Federal</option>
+              <option>Espírito Santo</option>
+              <option>Goiás</option>
+              <option>Maranhão</option>
+              <option>Mato Grosso</option>
+              <option>Mato Grosso do Sul</option>
+              <option>Minas Gerais</option>
+              <option>Pará</option>
+              <option>Paraíba</option>
+              <option>Paraná</option>
+              <option>Pernambuco</option>
+              <option>Piauí</option>
+              <option>Rio de Janeiro</option>
+              <option>Rio Grande do Norte</option>
+              <option>Rio Grande do Sul</option>
+              <option>Rondônia</option>
+              <option>Roraima</option>
+              <option>Santa Catarina</option>
+              <option>São Paulo</option>
+              <option>Sergipe</option>
+              <option>Tocantins</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+
+
+
+
     </fieldset>
     <input type="submit" value="Cadastrar">
     <input type="reset" value="Limpar">
-
-
   </form>
 </body>
 
