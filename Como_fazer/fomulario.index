@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <label for="txtNome">Nome:</label>
+        <input id="txtNome" type="text" placeholder="Digite seu nome completo">
+        <br><br>
+        <label for="txtSenha">Senha:</label>
+        <input id="txtSenha" type="password" placeholder="De 5 a 8 caracteres">
+        <br><br>
+        <label for="txtDataNasc">Data de Nascimento</label>
+        <input id="txtDataNasc" type="date">
+        <br><br>
+        <label for="txtNro">Numero:</label>
+        <input id="txtNro" type="number" min="0" max="9998" step="2">
+        <br><br>
+        <!-- Cria um caixa ao redor dos items: fieldset -->
+        <fieldset>
+            <legend>Contatos</legend>
+            <label for="txtEmail">email:</label>
+            <!-- Required - Obriga que seja obrigatoria a informação -->
+            <input id="txtEmail" type="email" placeholder="exemplo@exemplo.com" required>
+            <br><br>
+            <label for="txtSite">Site:</label>
+            <input id="txtSite" type="url" placeholder="www.site.com"><br><br>
+        </fieldset><br>
+        <!-- Cira uma lista de opções -->
+        <label for="txtEst">Estado</label>
+        <select id="txtEst">
+            <option>RN</option>
+            <option>MG</option>
+            <option>MG</option>
+            <option>MG</option>
+        </select><br>
+        <br>
+        <fieldset>
+            <label>Sexo:</label>
+            <input id="masc" type="radio" name="sexo">
+            <label for="masc">Masculino</label>
+            <input id="fem" type="radio" name="sexo">
+            <label for="fem">Feminino</label>
+        </fieldset>
+
+        <br><br>
+        <fieldset>
+            
+            <legend>Escolha a opções desejadas</legend>
+            <input id="txtHtml" type="checkbox">
+            <label for="txtHtml">HTML</label><br>            
+            
+            <input id="txtProg" type="checkbox">
+            <label for="txtProg">Programção</label><br>
+            
+            <input id="txtPwe" type="checkbox">
+            <label for="txtPwe">PWE</label><br>
+            
+            <input id="txtJava" type="checkbox">
+            <label for="txtJava">Java</label><br>
+            
+        </fieldset>
+        <!-- para criar um botão de invair -->
+        <input type="submit" value="Enviar">
+        <!-- Limpar o formulário -->
+        <input type="reset" value="Limpar">
+        <!-- botão -->
+        <input type="button" value="cancelar" onClick="lert('Candelar o cadastro')">
+    </form>
+
+
+
+    <!-- <form>
+        <br>
+        <br>
+
+        Exemplo de Uso 
+        <label for="txtNome">Função: "disabled"</label>
+        <input id="txtNome" type="text" placeholder="Digite seu nome completo" disabled>
+    </form> -->
+</body>
+
+</html>
