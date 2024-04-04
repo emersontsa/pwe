@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Cabecalho -->
+    <header>
+        <h1>WIFI - Um pouco sobre TUDO</h1>
+        <nav>
+            <ul>
+                <li><a href="">Opção 1</a< /li>
+                <li><a href="">Opção 2</a></li>
+                <li><a href="">Opção 3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- principal -->
+    <main>
+       
+        <!-- tema 1 -->
+        <section>
+            <h2>Esportes</h2>
+
+            <!-- Arrigo 1 -->
+
+            <article>
+                <h3>Campeonato Brasileiro</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, sed beatae? Fugiat itaque,
+                    dolorem sit ipsa eius quos natus quia. Qui eum adipisci laboriosam. Impedit corporis fuga explicabo,
+                    veniam dignissimos dicta nulla error perspiciatis aspernatur, voluptatibus rerum, nemo assumenda
+                    quo. Odio harum voluptatem ipsam sed explicabo quis. Dolorem aperiam, nobis distinctio recusandae
+                    architecto nisi nostrum perferendis minus nesciunt ratione officia culpa reiciendis pariatur autem
+                    totam incidunt laudantium rem deleniti dicta corrupti tenetur aliquam voluptatem saepe? Pariatur
+                    ratione nostrum in! Vero, eius explicabo.
+                </p>
+
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, sed beatae? Fugiat itaque,
+                    dolorem sit ipsa eius quos natus quia. Qui eum adipisci laboriosam. Impedit corporis fuga explicabo,
+                    veniam dignissimos dicta nulla error perspiciatis aspernatur, voluptatibus rerum, nemo assumenda
+                    quo. Odio harum voluptatem ipsam sed explicabo quis. Dolorem aperiam, nobis distinctio recusandae
+                    architecto nisi nostrum perferendis minus nesciunt ratione officia culpa reiciendis pariatur autem
+                    totam incidunt laudantium rem deleniti dicta corrupti tenetur aliquam voluptatem saepe? Pariatur
+                    ratione nostrum in! Vero, eius explicabo.
+                </p>
+                <p><b>Autor:</b> Fulano de tal</p>
+            </article>
+
+            <!-- Artigo 2 -->
+
+            <article>
+                <h3>Olimpíadas</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quaerat reiciendis quam animi
+                    facere, ratione eveniet ad accusantium enim eligendi fugiat fugit accusamus nesciunt hic quos! Rem
+                    totam non quas.
+                    Eligendi maxime blanditiis, sunt non temporibus iusto ipsam adipisci optio itaque voluptatibus quis
+                    deserunt exercitationem, repellat animi provident obcaecati consectetur at eveniet! Ipsum
+                    accusantium sunt possimus veniam quia ea ullam!
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quaerat reiciendis quam animi
+                    facere, ratione eveniet ad accusantium enim eligendi fugiat fugit accusamus nesciunt hic quos! Rem
+                    totam non quas.
+                    Eligendi maxime blanditiis, sunt non temporibus iusto ipsam adipisci optio itaque voluptatibus quis
+                    deserunt exercitationem, repellat animi provident obcaecati consectetur at eveniet! Ipsum
+                    accusantium sunt possimus veniam quia ea ullam!
+                </p>
+                <p><b>Autor:</b> Fulando de tal2</p>
+            </article>
+        </section>
+
+        <!-- Tema 2 -->
+        <section>
+
+        </section>
+    </main>
+    <!-- Rodapé -->
+    <footer>
+        <p>Rodapé da Página &#174;</p>
+    </footer>
+</body>
+
+</html>
+
+
+
