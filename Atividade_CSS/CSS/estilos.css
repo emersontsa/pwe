@@ -1,0 +1,83 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  
+  background-color: black;
+  background-position: auto;
+}
+header{   
+  background-color: black;
+  } 
+header p{
+  background-color:rgb(128,128,128);
+}  
+header p,h1{
+  text-align: right;  
+  padding: 7px;   
+  color: white;
+  font-weight: bold;    
+}
+header nav{  
+  text-align: center;
+  background-color:rgb(123,123,250);
+  height:25px;
+  margin-top: -20px;  
+  
+}
+.opcaoMenu{
+  margin:20px  
+}
+header li{
+  display: inline-block;  
+  height: 10px;
+  padding-top:3px;
+  font-weight: bold;
+  
+}
+header a:link{
+  color: white;
+  text-decoration: none;
+  
+}header a:hover{
+  text-decoration:underline;
+  color: white;
+}
+
+.imagem{
+  border: 1px solid red;
+ width: 300px;
+ height: auto;
+ margin-left:500px ; 
+}
+/* main */
+.espacoWord:hover{
+  letter-spacing: 4px;
+  transition: letter-spacing 0.5s ease-in-out;
+}
+
+main h2,p,img{
+  margin-bottom: 20px;
+}
+ul{
+  margin: 20px;
+  margin-left: 30px;
+}
+main{
+  background-color: black;
+}
+main section{ 
+  background-color:white;
+  margin:auto; 
+  height: 1200px;
+  padding: 30px;
+  width: 1300px;    
+}
+footer{
+  background-color: rgb(128,128,128);
+  color: white;
+  text-align: center;
+  height: 35px;
+  padding-top: 10px;  
+}
