@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* menu todos */
+.menu{
+    border-right: 10px solid black;
+    border-radius: 2.5px;
+    margin: 0px; list-style: none;
+    width: 85px;
+    padding: 15px;
+    transition: 1s;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+/* Menus */
+.menu1{
+    background-color: rgb(173, 216, 230);
+    position: fixed;
+    top: 25%;
+    left: -105px;  
+}
+.menu1:hover{
+    left:0px;    
+}  
+
+.menu2{
+    background-color: rgb(255, 255, 0);
+    position: fixed;
+    top: 34%;
+    left: -105px; 
+}
+.menu2:hover{
+    left:0px;    
+}  
+.menu3{
+    background-color:rgb(255, 182, 193);
+    position: fixed;
+    top: 44%;
+    left: -105px;      
+}
+.menu3:hover{
+    left:0px;    
+}  
+.menu4{
+    background-color: rgb(144, 238, 144);
+    position: fixed;
+    top: 54%;
+    left: -105px;   
+}
+.menu4:hover{
+    left:0px;    
+}  
+.menu5{
+    background-color: rgb(240, 128, 128);
+    position: fixed;
+    top: 64%;
+    left: -105px;    
+}
+.menu5:hover{
+    left:0px;    
+}  
+
+
+
+
+
+
+
+
+
+
+/* Fonte */
+.ubuntu-mono-regular {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+    
