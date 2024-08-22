@@ -1,0 +1,16 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* display: flex; é o que diz que vai receber caixa */
+/* Direção flex-direction: row ou collum */
+.armario {
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.cxOrg {
+    border: 5px solid pink;
+}
