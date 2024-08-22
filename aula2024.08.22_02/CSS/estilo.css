@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* display: flex; é o que diz que vai receber caixa */
+/* Direção flex-direction: row ou collum */
+.container {
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    margin: auto;
+    background-color: white;
+}
+
+.container>div {
+    border: 5px solid pink;
+    width: 100%;
+    background-color: aquamarine;
+}
