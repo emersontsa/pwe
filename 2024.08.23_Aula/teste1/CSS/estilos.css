@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* define a largura maxima pelo width*/
+    box-sizing: border-box;
+}
+
+.caixa1 {
+
+    background-color: pink;
+    width: 200px;
+}
+
+.caixa2 {
+
+    background-color: gray;
+    width: 200px;
+}
