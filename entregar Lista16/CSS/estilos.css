@@ -9,7 +9,8 @@ header ul{
     background-color: black;
     display: flex;  
     list-style-type: none;  
-    justify-content: right;  
+    justify-content: right;
+   
 }
 header li{    
     height: 10px;
@@ -20,30 +21,31 @@ a{
     color: white;
     font-weight: bold;
     background-repeat: no-repeat;
+
 }  
 .html5:hover{
     background-image: url('/img/html530LOGO.png');
-    background-position: left;  
+    background-position: 5px;
     background-color:white;
     color: black;   
-    padding: 30px;    
-    padding-right: 30px;  
+    padding: 40px;    
+    padding-right: 5px;
 }
 .css:hover{
     background-image: url('/img/css330LOGO.png');
-    background-position: left;  
+    background-position: 5px; 
     background-color:white;
     color: black;  
     padding: 40px;
-    padding-right: 10px;    
+    padding-right: 5px;    
 }
 .java:hover{
     background-image: url('/img/javascript30LOGO.png');
-    background-position: left;  
+    background-position: 5px; 
     background-color:white;
     color: black;  
     padding: 40px;
-    padding-right: 10px;    
+    padding-right: 5px;    
 }
 header img{
     width: 100%;
