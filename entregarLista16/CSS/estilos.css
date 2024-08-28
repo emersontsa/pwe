@@ -24,7 +24,7 @@ a{
 
 }  
 .html5:hover{
-    background-image: url("/img/html530LOGO.png");
+    background-image: url("./img/html530LOGO.png");
     background-position: 5px;
     background-color:white;
     color: black;   
@@ -32,7 +32,7 @@ a{
     padding-right: 5px;
 }
 .css:hover{
-    background-image: url('/img/css330LOGO.png');
+    background-image: url('./img/css330LOGO.png');
     background-position: 5px; 
     background-color:white;
     color: black;  
@@ -40,7 +40,7 @@ a{
     padding-right: 5px;    
 }
 .java:hover{
-    background-image: url('/img/javascript30LOGO.png');
+    background-image: url('./img/javascript30LOGO.png');
     background-position: 5px; 
     background-color:white;
     color: black;  
