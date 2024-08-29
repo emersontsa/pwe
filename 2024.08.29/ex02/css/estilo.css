@@ -1,0 +1,13 @@
+/* configuração global */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* configurações para celular */
+
+
+/* configrações para desktop */
+@media screen and (min-width: 1024px) {
+}
